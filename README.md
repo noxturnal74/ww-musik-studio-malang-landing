@@ -1,39 +1,37 @@
 # WW Musik Studio
 
-Standalone landing page for Music studio and rehearsal rental.
+Production-grade single-page concept for Music studio and rehearsal rental.
 
-## Design concept
+## Visual philosophy
 
-Interactive Storytelling / performance studio landing
+Backstage performance system with waveform strips, equipment ledgers, and room-booking boards.
 
-## Conversion goal
+## Business logic
 
-Guide musicians from rehearsal intent to recording, mixing, mastering, and booking with a bold studio narrative.
+Convert musicians into rehearsal, recording, mixing, mastering, and jingle production sessions.
 
-## Deployment notes
+## Storytelling structure
 
-- Static site entry: `index.html`
-- Local assets: `assets/`
-- Asset paths use relative `./assets/...`
-- `vercel.json` keeps `outputDirectory` at `.`
-- Logo fallback is handled in `script.js`
-- Hero fallback is a CSS gradient behind `./assets/hero.svg`
-- Parallax uses `requestAnimationFrame` in `script.js`
+Visitor hears the studio promise, selects room/session type, checks gear, sees workflow, then books a slot.
 
-## Brand-specific sections
+## Motion system
 
-- Studio Rooms: Practice rooms that are easy to understand before booking.
-- Equipment: Gear and room details framed for musicians, not casual visitors.
-- Recording and Practice: From demo tracks to commercial jingles.
+Equalizer pulses, horizontal waveform drift, section cuts that feel like track markers.
 
-## Public research injected
+## Conversion strategy
 
-- Studio profile lists rehearsal, recording, mixing, mastering, arrangement, music, and jingle production.
-- Official WW Musik profile says the business has served Malang's music market since 1994.
-- Dealer and sub-distributor background supports a stronger equipment and expert-consultation section.
+Primary route is studio booking; secondary route is production consultation.
+
+## Operational content included
+
+- Hours: Daily 10:00-22:00, session slots by confirmation
+- Contact: WhatsApp and email via Linktree
+- Pricing/offer cards: Room Hour from Rp60k, Tracking Session from Rp250k, Mix + Master from Rp450k
+- Workflow: Choose room or production -> Send band lineup -> Confirm slot -> Arrive for setup -> Receive session recap
+- Policies: Slots are held after admin confirmation. / Late setup time counts toward session. / Production revisions follow package agreement.
 
 ## Source links
 
 - WW Musik Studio Linktree: https://linktr.ee/wwmusik.studio
-- WW Musik official profile: https://www.wwmusik.com/?page_id=321
-- WW Musik Studio Instagram: https://www.instagram.com/wwmusik.studio
+- WW Musik profile: https://www.wwmusik.com/?page_id=321
+- WW Musik Instagram: https://www.instagram.com/wwmusik.studio

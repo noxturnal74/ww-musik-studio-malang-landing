@@ -1,9 +1,9 @@
 export const metadata = {
   title: "WW Musik Studio | Music studio and rehearsal rental",
-  description: "A bold performance-focused profile for rehearsal rooms, recording sessions, mixing, mastering, arrangements, and commercial music production.",
+  description: "Convert musicians into rehearsal, recording, mixing, mastering, and jingle production sessions.",
   openGraph: {
     title: "WW Musik Studio",
-    description: "A bold performance-focused profile for rehearsal rooms, recording sessions, mixing, mastering, arrangements, and commercial music production.",
+    description: "Convert musicians into rehearsal, recording, mixing, mastering, and jingle production sessions.",
     images: ["./assets/hero.svg"],
   },
 };

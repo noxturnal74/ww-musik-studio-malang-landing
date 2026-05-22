@@ -4,107 +4,58 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>WW Musik Studio | Music studio and rehearsal rental</title>
-  <meta name="description" content="A bold performance-focused profile for rehearsal rooms, recording sessions, mixing, mastering, arrangements, and commercial music production.">
+  <meta name="description" content="Convert musicians into rehearsal, recording, mixing, mastering, and jingle production sessions.">
   <meta property="og:title" content="WW Musik Studio">
-  <meta property="og:description" content="A bold performance-focused profile for rehearsal rooms, recording sessions, mixing, mastering, arrangements, and commercial music production.">
+  <meta property="og:description" content="Convert musicians into rehearsal, recording, mixing, mastering, and jingle production sessions.">
   <meta property="og:image" content="./assets/hero.svg">
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css">
 </head>
-<body class="theme-stage">
-  <header class="site-header">
+<body class="theme-studio" data-layout="studio" data-motion-profile="studio">
+  <header class="site-header studio-nav">
     <a class="logo-lockup" href="#top" aria-label="WW Musik Studio home">
       <img src="./assets/logo.svg" alt="Logo WW Musik Studio" data-fallback-logo>
       <span class="logo-fallback">WW</span>
       <strong>WW Musik Studio</strong>
     </a>
-    <nav aria-label="Primary"><a href="#rooms">Rooms</a><a href="#equipment">Gear</a><a href="#recording">Recording</a><a href="#location">Booking</a></nav>
+    <nav aria-label="Primary"><a href="#session">Session</a><a href="#gear">Gear</a><a href="#pipeline">Workflow</a><a href="#visit">Book</a></nav>
   </header>
-
   <main id="top">
-    <section class="hero" style="--hero-image:url('./assets/hero.svg')">
-      <div class="hero-overlay"></div>
-      <div class="hero-copy">
-        <p class="eyebrow">Rehearsal, recording, mixing, mastering</p>
-        <h1>A studio page built for bands, producers, and brand jingles.</h1>
-        <p>A bold performance-focused profile for rehearsal rooms, recording sessions, mixing, mastering, arrangements, and commercial music production.</p>
-        <div class="actions">
-          <a class="button primary" href="https://linktr.ee/wwmusik.studio" target="_blank" rel="noreferrer">Book Studio Time</a>
-          <a class="button ghost" href="https://www.instagram.com/wwmusik.studio" target="_blank" rel="noreferrer">Open Instagram</a>
-        </div>
-      </div>
-      <aside class="identity-card">
-        <img src="./assets/logo.svg" alt="" data-fallback-logo>
-        <span class="logo-fallback big">WW</span>
-        <em>Interactive Storytelling / performance studio landing</em>
-        <p>Pisang Candi studio area</p>
-        <strong>Music studio and rehearsal rental</strong>
-      </aside>
+    <section class="studio-hero" style="--hero-image:url('./assets/hero.svg')">
+      <div class="waveform" aria-hidden="true"><i style="--i:0"></i><i style="--i:1"></i><i style="--i:2"></i><i style="--i:3"></i><i style="--i:4"></i><i style="--i:5"></i><i style="--i:6"></i><i style="--i:7"></i><i style="--i:8"></i><i style="--i:9"></i><i style="--i:10"></i><i style="--i:11"></i><i style="--i:12"></i><i style="--i:13"></i><i style="--i:14"></i><i style="--i:15"></i><i style="--i:16"></i><i style="--i:17"></i><i style="--i:18"></i><i style="--i:19"></i><i style="--i:20"></i><i style="--i:21"></i><i style="--i:22"></i><i style="--i:23"></i><i style="--i:24"></i><i style="--i:25"></i><i style="--i:26"></i><i style="--i:27"></i></div>
+      <div><p class="eyebrow">Rehearsal / recording / mixing / mastering</p><h1>Book a room that already understands the session.</h1><p>Convert musicians into rehearsal, recording, mixing, mastering, and jingle production sessions.</p></div>
+      <aside><span>Since 1994 WW Musik ecosystem</span><span>Recording and mixing</span><span>Band rehearsal</span><span>Jingle production</span></aside>
     </section>
-
-    <section class="visual-strip" aria-label="WW Musik Studio campaign visuals">
-      <figure style="--image:url('./assets/gallery-1.svg')"><figcaption>Studio Rooms</figcaption></figure>
-      <figure style="--image:url('./assets/gallery-2.svg')"><figcaption>Equipment</figcaption></figure>
-      <figure style="--image:url('./assets/gallery-3.svg')"><figcaption>Recording and Practice</figcaption></figure>
+    <section id="session" class="booking-board">
+      <div><p class="eyebrow">Session rates</p><h2>Musicians need price, room, gear, and output before they book.</h2></div>
+      <div><article><span>Room Hour</span><strong>from Rp60k</strong><p>band rehearsal slot</p></article><article><span>Tracking Session</span><strong>from Rp250k</strong><p>recording block</p></article><article><span>Mix + Master</span><strong>from Rp450k</strong><p>single-song finishing</p></article></div>
     </section>
-
-    <section class="source-insights" aria-label="WW Musik Studio public research">
-      <div class="insight-copy">
-        <p class="eyebrow">Field Notes</p>
-        <h2>Guide musicians from rehearsal intent to recording, mixing, mastering, and booking with a bold studio narrative.</h2>
-        <p>Design direction: Interactive Storytelling / performance studio landing.</p>
-        <div class="source-links"><a href="https://linktr.ee/wwmusik.studio" target="_blank" rel="noreferrer">WW Musik Studio Linktree</a><a href="https://www.wwmusik.com/?page_id=321" target="_blank" rel="noreferrer">WW Musik official profile</a><a href="https://www.instagram.com/wwmusik.studio" target="_blank" rel="noreferrer">WW Musik Studio Instagram</a></div>
-      </div>
-      <div class="insight-grid">
-        <article><span>01</span><p>Studio profile lists rehearsal, recording, mixing, mastering, arrangement, music, and jingle production.</p></article><article><span>02</span><p>Official WW Musik profile says the business has served Malang's music market since 1994.</p></article><article><span>03</span><p>Dealer and sub-distributor background supports a stronger equipment and expert-consultation section.</p></article>
-      </div>
+    <section id="gear" class="gear-ledger">
+      <article><span>Gear / Ops</span><strong>Room calendar</strong></article><article><span>Gear / Ops</span><strong>Equipment list</strong></article><article><span>Gear / Ops</span><strong>Engineer briefing</strong></article><article><span>Gear / Ops</span><strong>Audio sample deck</strong></article><article><span>Gear / Ops</span><strong>Session deposit</strong></article>
     </section>
-
-    <section id="rooms" class="brand-section section-1">
-      <div class="section-copy">
-        <p class="eyebrow">Studio Rooms</p>
-        <h2>Practice rooms that are easy to understand before booking.</h2>
-      </div>
-      <div class="section-panel">
-        <article><span>WW</span><strong>Band rehearsal</strong></article><article><span>WW</span><strong>Hourly rental</strong></article><article><span>WW</span><strong>Session planning</strong></article>
-      </div>
-    </section><section id="equipment" class="brand-section section-2">
-      <div class="section-copy">
-        <p class="eyebrow">Equipment</p>
-        <h2>Gear and room details framed for musicians, not casual visitors.</h2>
-      </div>
-      <div class="section-panel">
-        <article><span>WW</span><strong>Backline setup</strong></article><article><span>WW</span><strong>Mic-ready room</strong></article><article><span>WW</span><strong>Control workflow</strong></article>
-      </div>
-    </section><section id="recording" class="brand-section section-3">
-      <div class="section-copy">
-        <p class="eyebrow">Recording and Practice</p>
-        <h2>From demo tracks to commercial jingles.</h2>
-      </div>
-      <div class="section-panel">
-        <article><span>WW</span><strong>Recording session</strong></article><article><span>WW</span><strong>Mixing and mastering</strong></article><article><span>WW</span><strong>Jingle production</strong></article>
-      </div>
+    <section id="pipeline" class="track-timeline">
+      <h2>Production workflow</h2>
+      <ol><li>Choose room or production</li><li>Send band lineup</li><li>Confirm slot</li><li>Arrive for setup</li><li>Receive session recap</li></ol>
     </section>
-
-    <section id="location" class="location">
-      <div>
-        <p class="eyebrow">Booking</p>
-        <h2>Jl. Langsep Bar. No.1, Pisang Candi, Malang</h2>
-        <p>WhatsApp and email via Linktree</p>
-        <div class="actions">
-          <a class="button primary" href="https://linktr.ee/wwmusik.studio" target="_blank" rel="noreferrer">Book Studio Time</a>
-          <a class="button ghost" href="https://linktr.ee/wwmusik.studio" target="_blank" rel="noreferrer">Public profile</a>
-        </div>
+    <section class="proof-grid"><article><span>01</span><p>Linktree lists rehearsal, recording, mixing, mastering, arrangement, music, and jingle production.</p></article><article><span>02</span><p>Official WW Musik profile states long-running Malang music market presence.</p></article><article><span>03</span><p>Dealer background supports equipment credibility.</p></article></section>
+    <section id="visit" class="visit-panel">
+    <div>
+      <p class="eyebrow">Visit / Contact</p>
+      <h2>Jl. Langsep Bar. No.1, Pisang Candi, Malang</h2>
+      <p>Daily 10:00-22:00, session slots by confirmation</p>
+      <p>WhatsApp and email via Linktree</p>
+      <div class="actions">
+        <a class="button primary" href="https://linktr.ee/wwmusik.studio" target="_blank" rel="noreferrer">Open Official Profile</a>
+        <a class="button ghost" href="https://www.instagram.com/wwmusik.studio" target="_blank" rel="noreferrer">Instagram</a>
       </div>
-      <iframe title="WW Musik Studio map" src="https://www.google.com/maps?q=Jl.%20Langsep%20Bar.%20No.1%2C%20Pisang%20Candi%2C%20Malang&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
+    </div>
+    <iframe title="WW Musik Studio map" src="https://www.google.com/maps?q=Jl.%20Langsep%20Bar.%20No.1%2C%20Pisang%20Candi%2C%20Malang&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
   </main>
-
   <footer>
-    <span>WW Musik Studio website concept, tailored for Music studio and rehearsal rental.</span>
+    <span>It feels like a studio console, not a generic creative agency landing page.</span>
     <a href="https://wa.me/6289506753131?text=Halo%20Albert,%20saya%20mau%20dibuatkan%20website%20brand%20seperti%20demo%20ini." target="_blank" rel="noreferrer">Website by Albert Saputra</a>
   </footer>
-
   <script src="./script.js"></script>
 </body>
 </html>
