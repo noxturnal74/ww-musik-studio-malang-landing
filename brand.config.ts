@@ -9,6 +9,27 @@ export const brandConfig = {
   "contact": "WhatsApp and email via Linktree",
   "publicLink": "https://linktr.ee/wwmusik.studio",
   "instagram": "https://www.instagram.com/wwmusik.studio",
+  "designConcept": "Interactive Storytelling / performance studio landing",
+  "conversionGoal": "Guide musicians from rehearsal intent to recording, mixing, mastering, and booking with a bold studio narrative.",
+  "proofPoints": [
+    "Studio profile lists rehearsal, recording, mixing, mastering, arrangement, music, and jingle production.",
+    "Official WW Musik profile says the business has served Malang's music market since 1994.",
+    "Dealer and sub-distributor background supports a stronger equipment and expert-consultation section."
+  ],
+  "sourceLinks": [
+    {
+      "label": "WW Musik Studio Linktree",
+      "url": "https://linktr.ee/wwmusik.studio"
+    },
+    {
+      "label": "WW Musik official profile",
+      "url": "https://www.wwmusik.com/?page_id=321"
+    },
+    {
+      "label": "WW Musik Studio Instagram",
+      "url": "https://www.instagram.com/wwmusik.studio"
+    }
+  ],
   "theme": {
     "bg": "#0f1012",
     "accent": "#e33f64",
